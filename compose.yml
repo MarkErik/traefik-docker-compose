@@ -21,6 +21,5 @@ services:
         - connect-reverse-proxy
       
 networks:
-  default:
-    name: connect-reverse-proxy
+  connect-reverse-proxy:
     external: true
